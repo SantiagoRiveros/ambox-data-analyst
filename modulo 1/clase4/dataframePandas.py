@@ -28,3 +28,7 @@ print(edades)
 
 df["Salario"] = df["Salario"] * 1.1  # Aumento del 10%
 print(df)
+
+df["Edad"] = df["Edad"] * 2
+
+print(df)
