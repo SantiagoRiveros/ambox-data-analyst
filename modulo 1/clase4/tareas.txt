@@ -1,0 +1,52 @@
+📝 Ejercicio 1: Crear un DataFrame
+Crea un DataFrame con la siguiente información:
+
+Nombre	Edad	Ciudad	Salario
+Ana	25	Buenos Aires	3000
+Juan	30	Córdoba	4000
+Pedro	35	Rosario	5000
+Lucía	40	Mendoza	6000
+Carlos	50	Tucumán	7000
+📌 Instrucciones:
+
+Crea un DataFrame con esta información.
+
+Muestra el DataFrame en pantalla.
+
+📝 Ejercicio 2: Acceder a columnas
+📌 Instrucciones:
+
+Imprime en pantalla solo los nombres de las personas.
+
+Imprime en pantalla solo los salarios.
+
+📝 Ejercicio 3: Filtrar datos
+📌 Instrucciones:
+
+Muestra solo las filas donde la edad sea mayor a 30.
+
+Muestra solo las personas que ganan más de 4000.
+
+📝 Ejercicio 4: Modificar datos
+📌 Instrucciones:
+
+Aumenta en un 5% el salario de todos.
+
+Cambia la ciudad de "Pedro" por "Santa Fe".
+
+📝 Ejercicio 5: Agregar y eliminar datos
+📌 Instrucciones:
+
+Agrega un nuevo empleado: "Sofía", 28 años, de Salta, con salario de 4500.
+
+Elimina la fila de "Carlos" del DataFrame.
+
+🎯 Objetivo de la tarea
+Aprender a crear y manipular DataFrames.
+
+Acceder a datos con columnas y filas.
+
+Aplicar filtros para seleccionar información.
+
+Modificar y actualizar datos en pandas.
+
