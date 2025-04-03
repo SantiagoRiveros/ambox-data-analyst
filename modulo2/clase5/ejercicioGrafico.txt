@@ -1,0 +1,16 @@
+🧩 Enunciado:
+Tenés los siguientes datos de ventas por producto:
+
+Producto	Ventas
+A	150
+B	200
+C	300
+D	120
+E	180
+✅ Usá matplotlib para:
+
+Hacer un gráfico de barras que muestre las ventas por producto.
+
+Agregá etiquetas al eje X (nombre de productos) y eje Y (cantidad de ventas).
+
+Poné un título descriptivo al gráfico.
