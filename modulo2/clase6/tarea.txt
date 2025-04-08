@@ -1,0 +1,10 @@
+Enunciado:
+Buscar un archivo CSV (puede ser de Kaggle o armado manualmente) que contenga:
+
+1- Datos faltantes
+
+2- Algunos duplicados
+
+3- Errores de formato en textos (como mayúsculas mezcladas)
+
+Objetivo: Realizar una limpieza completa con Pandas y guardar el DataFrame limpio en un nuevo CSV.
