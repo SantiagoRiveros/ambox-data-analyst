@@ -1,0 +1,13 @@
+¿Que es lo que hacemos con la "limpieza" de datos?
+
+Datos a los que queremos llegar:
+
+1- Datos completos (Sin valores faltantes)
+2- Datos Unicos (Es decir, que no esten duplicados/repetidos)
+3- Bien formateados (Texto normalizados, columnas claras) Ej: santiagoriveros@hotmail.com -> santiagoriveros
+
+Ej: columna mal formateada : ElectronicMail
+
+IMPORTANTISIMO:
+
+Muchos errores y confusiones en los proyectos, viene de datos mal limpiados
