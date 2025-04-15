@@ -1,0 +1,8 @@
+Uso de NumPy 
+para Cálculos Matemáticos y Optimización
+
+1- Fundamentos de NumPy y diferencios con listas de Python
+2- Creacion y manipulacion arrays
+3- Operaciones vectorizadas y funciones matematicas
+4- Optimizacion: uso de funciones de Numpy para mejorar el rendimiento en calculos
+

@@ -1,0 +1,6 @@
+1- Numpy: es una libreria especializada en calculos numericos
+que provee el objeto ndarray (array multidimensional)
+2- Es mucho mas rapido y eficiente que usar listas, sobre todo
+para operaciones matematicas y grandes cantidades de datos.
+3- Sus operaciones son vectorizadas, lo que significa que se aplican a todos los
+elementos del array sin necesidad de bucles explicitos
