@@ -63,3 +63,12 @@ print(ventas_precio)
 ventas_dia = ventas.groupby("fecha")["cantidad"].sum().sort_values(ascending=False)
 print(ventas_dia)
 
+# Graficar productos más vendidos
+
+import matplotlib.pyplot as plt
+
+
+ventas.groupby("producto")["cantidad"].sum().plot(kind="bar", color="skyblue")
+plt.title("Productos más vendidos")
+plt.ylabel("Cantidad")
+plt.show()
