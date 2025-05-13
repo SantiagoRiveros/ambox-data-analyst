@@ -1,0 +1,33 @@
+¿Que es la visualizacion de datos?
+-Representacion grafica de la informacion
+
+¿Para que nos sirve?
+-Facilita entender patrones, detectar outliers, y comunicar resultados
+
+¿Porque es importante?
+-Transforma datos crudos en informacion comprensible.
+-Herramienta fundamental en ciencia de datos, analitica, BI, etc.
+
+----------------------------------------------
+
+Tipos de graficos:
+
+-Linea: Evolucion en el tiempo
+-Barras: Comparacion entre categorias
+-Barras apiladas: Comparacion + Proporcion
+-Histograma: Distribucion de frecuencias
+-Boxplot: Mediana, cuartiles, outliers.
+-Dispersion: Relacion entre 2 variables
+-Torta (pie): Proporciones de un total.
+-Heatmap: Correlacion visual o intensidades.
+
+----------------------------------------------
+
+Principios de buena visualizacion
+
+-Claridad
+-Brevedad
+-Evitar Distorsiones
+-Elegir el tipo de grafico adecuado
+-Usar colores sabiamente
+-Etiquetar ejes y agregar titulo
