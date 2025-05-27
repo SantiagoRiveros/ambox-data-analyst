@@ -1,0 +1,21 @@
+¿Que es Power BI?
+Es una herramienta para visualizacion de datos de manera interactiva.
+
+Permite:
+-Conectar datos de diferentes fuentes (Excel, CSV, SQL, Web APIs, etc).
+-Transformar y limpiar datos (Power Query)
+-Crear dashboards y reportes con visualizaciones dinamicas e interactivas.
+-Compartir dashboards de manera online (Power BI Service)
+
+Componentes Principales:
+-Power BI Desktop: herramienta para crear informes (gratuita).
+-Power BI Service: plataforma online para compartir informes.
+-Power Query: modulo para transformar datos.
+-DAX (Data Analysis Expressions): Lenguaje para crear medidas y columnas calculadas.
+
+Flujo de trabajo (o workflow):
+1- Importar datos
+2- Transformar y limpiar datos
+3- Crear visualizaciones
+4- Diseñar dashboards
+5- Publicar o exportar.
