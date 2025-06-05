@@ -1,0 +1,101 @@
+ID,Fecha,Producto,Categoria,Cantidad,Precio Unitario,Tienda,Ciudad
+1,2023-02-11,Mousepad,Accesorios,3,8.99,Tienda Sur,Córdoba
+2,2023-01-21,Mouse,Periféricos,3,15.99,Tienda Sur,Córdoba
+3,2023-02-23,Laptop,Computadoras,3,800.0,Tienda Centro,Buenos Aires
+4,2023-01-22,Monitor,Periféricos,2,150.0,Tienda Sur,Rosario
+5,2023-02-10,Laptop,Computadoras,1,800.0,Tienda Sur,Córdoba
+6,2023-02-07,Auriculares,Accesorios,5,60.0,Tienda Norte,Córdoba
+7,2023-02-05,Mouse,Periféricos,4,15.99,Tienda Centro,Rosario
+8,2023-01-15,Laptop,Computadoras,5,800.0,Tienda Norte,Rosario
+9,2023-01-31,Webcam,Accesorios,5,40.0,Tienda Sur,Buenos Aires
+10,2023-02-26,Auriculares,Accesorios,3,60.0,Tienda Centro,Córdoba
+11,2023-01-21,Laptop,Computadoras,5,800.0,Tienda Centro,Rosario
+12,2023-01-10,Tablet,Computadoras,2,450.0,Tienda Centro,Buenos Aires
+13,2023-01-18,Monitor,Periféricos,1,150.0,Tienda Centro,Buenos Aires
+14,2023-02-19,Cargador,Accesorios,4,10.5,Tienda Sur,Rosario
+15,2023-01-15,Laptop,Computadoras,5,800.0,Tienda Sur,Buenos Aires
+16,2023-01-07,Tablet,Computadoras,1,450.0,Tienda Centro,Rosario
+17,2023-01-07,Monitor,Periféricos,2,150.0,Tienda Norte,Buenos Aires
+18,2023-01-24,Auriculares,Accesorios,3,60.0,Tienda Norte,Córdoba
+19,2023-01-08,Monitor,Periféricos,2,150.0,Tienda Centro,Buenos Aires
+20,2023-02-17,Laptop,Computadoras,3,800.0,Tienda Sur,Córdoba
+21,2023-01-24,Notebook,Computadoras,3,700.0,Tienda Sur,Rosario
+22,2023-02-14,Mousepad,Accesorios,1,8.99,Tienda Sur,Rosario
+23,2023-01-24,Cargador,Accesorios,4,10.5,Tienda Norte,Rosario
+24,2023-02-03,Monitor,Periféricos,2,150.0,Tienda Norte,Rosario
+25,2023-02-21,Tablet,Computadoras,4,450.0,Tienda Sur,Córdoba
+26,2023-01-26,Tablet,Computadoras,1,450.0,Tienda Norte,Córdoba
+27,2023-02-06,Auriculares,Accesorios,3,60.0,Tienda Centro,Buenos Aires
+28,2023-02-04,Mouse,Periféricos,4,15.99,Tienda Centro,Rosario
+29,2023-01-01,Mousepad,Accesorios,2,8.99,Tienda Norte,Córdoba
+30,2023-02-17,Teclado,Periféricos,5,25.0,Tienda Norte,Córdoba
+31,2023-01-02,Notebook,Computadoras,2,700.0,Tienda Sur,Rosario
+32,2023-02-01,Notebook,Computadoras,1,700.0,Tienda Sur,Córdoba
+33,2023-01-18,Cargador,Accesorios,5,10.5,Tienda Sur,Rosario
+34,2023-01-28,Webcam,Accesorios,5,40.0,Tienda Centro,Rosario
+35,2023-01-22,Mouse,Periféricos,2,15.99,Tienda Norte,Buenos Aires
+36,2023-01-20,Webcam,Accesorios,1,40.0,Tienda Sur,Buenos Aires
+37,2023-02-18,Tablet,Computadoras,4,450.0,Tienda Norte,Buenos Aires
+38,2023-01-24,Cargador,Accesorios,3,10.5,Tienda Norte,Rosario
+39,2023-02-15,Auriculares,Accesorios,4,60.0,Tienda Sur,Buenos Aires
+40,2023-02-20,Auriculares,Accesorios,4,60.0,Tienda Centro,Córdoba
+41,2023-01-02,Tablet,Computadoras,5,450.0,Tienda Sur,Rosario
+42,2023-01-07,Webcam,Accesorios,4,40.0,Tienda Norte,Rosario
+43,2023-01-12,Webcam,Accesorios,5,40.0,Tienda Norte,Buenos Aires
+44,2023-02-24,Teclado,Periféricos,2,25.0,Tienda Norte,Córdoba
+45,2023-03-01,Monitor,Periféricos,4,150.0,Tienda Centro,Córdoba
+46,2023-02-26,Notebook,Computadoras,4,700.0,Tienda Norte,Rosario
+47,2023-01-27,Auriculares,Accesorios,5,60.0,Tienda Sur,Buenos Aires
+48,2023-01-25,Laptop,Computadoras,1,800.0,Tienda Norte,Córdoba
+49,2023-02-25,Tablet,Computadoras,2,450.0,Tienda Norte,Rosario
+50,2023-01-23,Monitor,Periféricos,1,150.0,Tienda Centro,Buenos Aires
+51,2023-02-24,Webcam,Accesorios,3,40.0,Tienda Norte,Rosario
+52,2023-01-06,Mousepad,Accesorios,3,8.99,Tienda Centro,Rosario
+53,2023-02-13,Auriculares,Accesorios,3,60.0,Tienda Centro,Córdoba
+54,2023-02-19,Mouse,Periféricos,3,15.99,Tienda Sur,Rosario
+55,2023-02-09,Laptop,Computadoras,1,800.0,Tienda Sur,Rosario
+56,2023-01-17,Webcam,Accesorios,4,40.0,Tienda Norte,Rosario
+57,2023-02-07,Auriculares,Accesorios,2,60.0,Tienda Norte,Buenos Aires
+58,2023-02-25,Teclado,Periféricos,4,25.0,Tienda Sur,Córdoba
+59,2023-02-19,Mousepad,Accesorios,2,8.99,Tienda Norte,Córdoba
+60,2023-02-02,Notebook,Computadoras,1,700.0,Tienda Sur,Rosario
+61,2023-02-01,Mousepad,Accesorios,4,8.99,Tienda Norte,Córdoba
+62,2023-02-11,Mouse,Periféricos,5,15.99,Tienda Norte,Buenos Aires
+63,2023-01-09,Notebook,Computadoras,2,700.0,Tienda Norte,Rosario
+64,2023-01-09,Cargador,Accesorios,2,10.5,Tienda Centro,Buenos Aires
+65,2023-02-24,Laptop,Computadoras,2,800.0,Tienda Centro,Córdoba
+66,2023-02-19,Cargador,Accesorios,4,10.5,Tienda Centro,Rosario
+67,2023-01-09,Monitor,Periféricos,2,150.0,Tienda Sur,Rosario
+68,2023-02-07,Monitor,Periféricos,1,150.0,Tienda Sur,Buenos Aires
+69,2023-02-19,Cargador,Accesorios,3,10.5,Tienda Norte,Rosario
+70,2023-01-14,Auriculares,Accesorios,1,60.0,Tienda Centro,Buenos Aires
+71,2023-01-27,Mousepad,Accesorios,5,8.99,Tienda Sur,Rosario
+72,2023-02-07,Laptop,Computadoras,5,800.0,Tienda Centro,Buenos Aires
+73,2023-02-12,Tablet,Computadoras,4,450.0,Tienda Norte,Buenos Aires
+74,2023-01-10,Monitor,Periféricos,1,150.0,Tienda Sur,Rosario
+75,2023-01-02,Cargador,Accesorios,3,10.5,Tienda Sur,Córdoba
+76,2023-02-28,Teclado,Periféricos,3,25.0,Tienda Sur,Córdoba
+77,2023-01-27,Auriculares,Accesorios,4,60.0,Tienda Sur,Rosario
+78,2023-02-28,Monitor,Periféricos,5,150.0,Tienda Centro,Buenos Aires
+79,2023-02-17,Mousepad,Accesorios,5,8.99,Tienda Centro,Córdoba
+80,2023-03-01,Tablet,Computadoras,5,450.0,Tienda Norte,Buenos Aires
+81,2023-01-31,Tablet,Computadoras,3,450.0,Tienda Norte,Córdoba
+82,2023-02-01,Teclado,Periféricos,1,25.0,Tienda Sur,Córdoba
+83,2023-02-10,Notebook,Computadoras,1,700.0,Tienda Centro,Rosario
+84,2023-01-28,Webcam,Accesorios,4,40.0,Tienda Centro,Rosario
+85,2023-02-26,Notebook,Computadoras,3,700.0,Tienda Norte,Buenos Aires
+86,2023-01-10,Monitor,Periféricos,1,150.0,Tienda Sur,Córdoba
+87,2023-01-20,Mouse,Periféricos,5,15.99,Tienda Sur,Rosario
+88,2023-01-11,Webcam,Accesorios,4,40.0,Tienda Centro,Rosario
+89,2023-02-08,Laptop,Computadoras,1,800.0,Tienda Norte,Rosario
+90,2023-01-31,Mouse,Periféricos,1,15.99,Tienda Centro,Rosario
+91,2023-01-09,Notebook,Computadoras,3,700.0,Tienda Norte,Rosario
+92,2023-01-30,Webcam,Accesorios,1,40.0,Tienda Sur,Córdoba
+93,2023-03-01,Cargador,Accesorios,5,10.5,Tienda Norte,Rosario
+94,2023-01-31,Monitor,Periféricos,5,150.0,Tienda Sur,Rosario
+95,2023-02-15,Monitor,Periféricos,4,150.0,Tienda Centro,Buenos Aires
+96,2023-01-03,Auriculares,Accesorios,4,60.0,Tienda Norte,Córdoba
+97,2023-01-25,Cargador,Accesorios,3,10.5,Tienda Sur,Rosario
+98,2023-01-13,Mouse,Periféricos,1,15.99,Tienda Sur,Rosario
+99,2023-01-22,Tablet,Computadoras,1,450.0,Tienda Centro,Rosario
+100,2023-02-09,Webcam,Accesorios,5,40.0,Tienda Norte,Córdoba
