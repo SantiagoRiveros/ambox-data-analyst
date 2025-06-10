@@ -12,6 +12,10 @@ Media -> Promedio General -> Suma de los valores / Cantidad de Valores (AVERAGE)
 Mediana -> Valor del medio (Cuando estan ordenados) -> Si hay par, es el promedio de los dos del medio
 Moda -> Valor que mas se repite -> Puede no haber, o puede haber mas de una
 
+Numero maximo de modas = LargoDelConjuntoDeDatos / 2
+
+EJ: [2, 2, 4, 4, 6, 6, 8, 8, 10, 10] <- 5 Modas
+EJ: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] <- Sin modas
 
 La media (o promedio) se calcula sumando todos los valores de un conjunto de datos y dividiendo el resultado por la cantidad de valores. 
 La mediana, por otro lado, es el valor central de un conjunto de datos cuando se ordenan de menor a mayor
@@ -38,7 +42,7 @@ Medidas de dispersion
 
 Medida -> Que indica
 ---------------------
-Rango -> Diferencia entre valor MIN y MAX
+Rango -> Diferencia entre valor MAXIMO Y MINIMO
 Varianza -> Promedio de las diferencias cuadradas respecto a la media
 Desviacion Estandar -> Raiz cuadrada de la varianza (Dispersion promedio)
 
@@ -53,3 +57,13 @@ Estas medidas son utiles para:
 -Comparar comportamientos entre grupos
 -Comprender la estructura de nuestros datos antes de visualizar
 
+
+
+DIFERENCIA ENTRE MEDIA Y MEDIANA.
+
+[10, 100, 1000, 10000, 100000, 10000000000000000000000000]
+
+Mediana = 5500
+MEDIA = 166,666,666,685,185
+
+SUMA = 1,000,000,000,111,110
