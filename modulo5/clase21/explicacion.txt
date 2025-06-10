@@ -1,0 +1,55 @@
+¿Que es la estadistica descriptiva?
+
+Es la rama de la estadística que resume y describe las características de un conjunto de datos.
+No busca inferir ni predecir, sino comprender lo que ya se observó.
+
+
+Medidas de tendencia central
+
+Medida -> Que indica -> Como se calcula
+------------------------------------------
+Media -> Promedio General -> Suma de los valores / Cantidad de Valores (AVERAGE)
+Mediana -> Valor del medio (Cuando estan ordenados) -> Si hay par, es el promedio de los dos del medio
+Moda -> Valor que mas se repite -> Puede no haber, o puede haber mas de una
+
+
+La media (o promedio) se calcula sumando todos los valores de un conjunto de datos y dividiendo el resultado por la cantidad de valores. 
+La mediana, por otro lado, es el valor central de un conjunto de datos cuando se ordenan de menor a mayor
+
+------------
+
+Ejemplo:
+Con los valores: 4, 6, 6, 7, 8, 10
+
+Media = (4 + 6 + 6 + 7 + 8 + 10) / 6 = 6.83
+Mediana = 4, 6, 6, 7, 8, 10 = (6 + 7) / 2 = 6.5
+Moda = 6
+
+
+Ejemplo mediana con cantidad impar de datos:
+[7, 3, 9, 1, 5]
+
+Ordenado = 1, 3, 5, 7, 9
+
+
+-----------------------------------------------
+
+Medidas de dispersion
+
+Medida -> Que indica
+---------------------
+Rango -> Diferencia entre valor MIN y MAX
+Varianza -> Promedio de las diferencias cuadradas respecto a la media
+Desviacion Estandar -> Raiz cuadrada de la varianza (Dispersion promedio)
+
+Interpretacion:
+-Una desviacion estandar alta indica que los datos estan dispersos
+-Una desviacion estandar baja indica que estan mas agrupados cerca de la media
+
+
+Importancia en el analisis
+Estas medidas son utiles para:
+-Detectar sesgos o valores atipicos
+-Comparar comportamientos entre grupos
+-Comprender la estructura de nuestros datos antes de visualizar
+
