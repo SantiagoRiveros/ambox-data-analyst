@@ -1,0 +1,74 @@
+Distribucion de datos y correlaciones
+
+Distribucion
+Ej: Como se reparten los datos (¿La mayoria de pasajeros tenia entre 20 y 40 años? Del titanic hablo)
+
+-¿Que es una distribucion?
+La distribucion describe como se reparten los valores de una variable
+
+Ejemplo con la edad del titanic:
+Si tenemos una columna AGE, la distribucion nos dice:
+
+1- ¿Cuantas personas tienen entre 0 y 10 años?
+2- ¿Y entre 10 y 20?
+3- ¿Que edades son mas frecuentes? <- Esto podria describirse como moda
+
+Podemos visualizarlo con:
+Histogramas -> Muestra frecuencias
+Boxplots -> Resumen estadistico + outliers
+
+Una distribucion, puede ser:
+-Normal (Curva de campana)
+-Asimetrica (A la derecha o a la izquierda)
+-Multimodal (varios picos)
+
+-Visualizaciones comunes para analizar distribuciones y relaciones:
+1- Histograma:
+Visualiza frecuencias
+Eje X = rangos de valores (Ej: edades de 10 en 10)
+Eje Y = Cuantos datos hay en ese rango
+-Util para:
+Ver que valores son mas comunes
+Identificar sesgos o formas de la distribucion
+
+
+2- Boxplot:
+Muestra la distribucion resumida: mediana, cuartiles, valores atipicos
+No muestra frecuencias como el histograma, pero si dispersion y simetria.
+-Util para:
+Comparar grupos (Ej: Edad por clase)
+Ver outliers (Valores extremos o atipicos)
+
+
+3- Scatter Plot (Dispersion):
+Muestra relacion entre dos variables numericas
+Cada punto representa un caso 
+Permite ver patrones, correlaciones y agrupamientos.
+-Util para:
+Ver si una variable depende de otra (Ej: ¿Mas edad implica mayor tarifa?)
+
+
+4- Heatmap (Mapa de calor de correlacion)
+Muestra matriz de correlaciones entre variables numericas.
+Correlacion -1 a 1:
+    +1: Correlacion positiva y perfecta
+    0: no hay correlacion
+    -1: Correlacion negativa y perfecta.
+
+-Util para:
+Detectar relaciones ocultas entre variables
+Saber que variables estan conectadas
+
+--------------------
+
+Correlacion
+
+¿Que es una correlacion?
+Correlacion mide como dos variables estan relacionadas entre si.
+Ejemplo:
+    Edad y tarifa: Si al aumentar la edad, tambien aumenta la tarifa, hay correlacion positiva
+    Si aumenta una, y baja la otra, es negativa
+
+Importante: Correlacion, no implica causalidad
+
+
