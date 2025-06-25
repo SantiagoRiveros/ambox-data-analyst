@@ -1,0 +1,21 @@
+1- Los dataframes en pandas se usan para almacenar datos tabulares.
+2- En la practica los datos pueden estar divididos en multiples tablas.
+EJ: Hay veces que si pedimos a una base de datos, o a cualquier lado informacion sobre 2000 empleados, en vez de enviarnos un csv o un dataframe, nos envian 2, o mas.
+
+3- Usar tecnicas de merge y concatenacion facilita el analisis al unir distintos conjuntos de informacion
+
+
+MERGES Y JOINS:
+
+Conceptos basicos:
+-MERGE: Es la accion de combinar dos Dataframes usando una o mas columnas en comun (llamadas claves)
+-JOIN: Termino similar a merge, que en SQL se conoce como union, Pandas implementa merges con diferentes esitlos de JOINS.
+
+Tipos de Joins:
+-INNER JOIN: Devuelve solo las filas que tienen en coincidencia ambas tablas.
+-LEFT JOIN: Devuelve todas las filas del Dataframe de la izquierda, y las filas que coinciden del derecho.
+
+EJEMPLO MUY BRUTO: Dataframe1 + Dataframe2 (UNILAS POR EL NOMBRE, LEFT JOIN)
+
+-RIGHT JOIN: Devuelve todas las filas del dataframe de la derecha, y las filas coincidentes del izquierdo
+-OUTER JOIN: Devuelve todas las filas de ambos dataframes, completando con NAN donde no hay coincidencias.

@@ -1,0 +1,98 @@
+¿QUE ES DAX?
+
+DAX ES Data analysis Expressions, es un lenguaje de formulas, utilizado en PowerBI, Power Pivot, y Analysis Services.
+Permite crear medidas, columnas calculadas y tablas personalizadas basados en los datos existentes.
+
+¿DONDE SE USA?
+
+En powerBI, usamos Dax para:
+-Crear Medidas(Valores agregados dinamicos, como promedios, total, porcentajes, etc)
+-Crear columnas calculadas (Nuevas columnas basadas en formulas)
+-Crear tablas calculadas (Subconjuntos o transformaciones de tablas)
+-Realizar filtros contextuales y calculos condicionales.
+
+FUNCIONES MAS COMUNES
+
+Agregacion -> SUM, AVERAGE, MAX, MIN, COUNT
+Logicas -> IF, SWITCH, AND, OR
+Texto -> CONCATENATE, LEFT, RIGHT, LEN, FORMAT
+Filtros -> FILTER, ALL, ALLEXCEPT, VALUES
+Tiempo -> SAMEPERIODLASTYEAR, DATESYTD, TOTALYTD, DATEADD
+Especiales -> CALCULATE, DIVIDE, RELATED, RELATEDTABLE
+
+-SUM(column): Suma todos los valores numericos de una columna. Ej: SUM(ventas[importe])
+
+-AVERAGE(column): Calcula el promedio de una columna numerica. EJ: AVERAGE(empleados[salario])
+
+-MAX(column): Devuelve el valor maximo de una columna numerica. EJ: MAX(empleados[salario])
+
+-MIN(column): Devuelve el valor minimo de una columna numerica. EJ: MIN(empleados[salario])
+
+-COUNT(column): Cuenta cuantos valores tiene una columna. EJ: COUNT(clientes[nombre])
+
+-----------------------
+
+-IF(condition, result_true, result_false):
+Evalua una condicion y devuelve un valor u otro.
+Ej: IF(ventas[importe] > 1000, "Alta", "Baja")
+
+-SWITCH(expression, value1, result1, ..., else_result):
+Evalua una expresion, y compara con multiples valores.
+EJ: SWITCH(Ventas[Categoría],
+        "A", 10,
+        "B", 20,
+        "C", 30,
+        0
+    )
+
+-AND(condition1, condition2):
+Devuelve True si ambas condiciones son verdaderas.
+EJ: AND([ventas] > 1000, [costos] < 500)
+
+-OR(condition1, condition2):
+Devuelve True si cualquiera de las condiciones es verdadera.
+EJ: OR([Ventas] > 1000, [Costos] < 500)
+
+--------------------------------------------------------------
+
+-CONCATENATE(text1, text2):
+Une dos textos, solo acepta dos argumentos.
+EJ: CONCATENATE(Clientes[nombre], Clientes[apellido])
+
+-LEFT(text, num_chars):
+Extrae los primeros caracteres de un texto
+Ej: LEFT(Productos[SKU], 3)
+
+-RIGHT(text, num_chars):
+Extrae los ultimos caracteres de un texto.
+Ej: RIGHT(Productos[SKU], 3)
+
+-LEN(text):
+Devuelve la cantidad de caracteres de un texto.
+EJ: LEN(Clientes[nombre])
+
+-FORMAT(value, format_text):
+Devuelve un valor numerico o de fecha como texto con formato.
+Ej: FORMAT([fecha], "YYYY-MM-DD")
+
+------------------------------------------
+
+-FILTER(table, condition):
+Devuelve una tabla filtrada segun una condicion.
+Ej: FILTER(Ventas, Ventas[Importe] > 1000)
+
+-ALL (table/column)
+Elimina todos los filtros sobre la tabla o columna.
+Ej: CALCULATE(SUM(Ventas[Importe]), ALL(Ventas))
+
+-ALLEXCEPT(table, column1, ...)
+Elimina todos los filtros excepto los especificados.
+Ej: CALCULATE(SUM(Ventas[Importe]), ALLEXCEPT(Ventas, Ventas[Región]))
+
+-VALUES(column)
+Devuelve los valores únicos en una columna.
+Ej: VALUES(Clientes[País])
+
+---------------------------------------------------------
+
+

@@ -1,0 +1,12 @@
+
+Tipo de gráfico	            Función	            Útil para...
+
+Gráfico de dispersión	    sns.scatterplot()	Ver relaciones entre 2 variables
+Gráfico de líneas	        sns.lineplot()	    Series temporales o continuas
+Gráfico de barras	        sns.barplot()	    Comparar medias o totales por grupo
+Gráfico de caja	            sns.boxplot()	    Ver distribución y outliers
+Gráfico de violín	        sns.violinplot()	Distribución con densidad
+Mapa de calor	            sns.heatmap()	    Correlaciones o matrices
+Histograma	                sns.histplot()	    Distribución de una variable
+Pairplot	                sns.pairplot()	    Comparar varias relaciones a la vez
+Countplot	                sns.countplot()	    Contar la cantidad de cada categoría

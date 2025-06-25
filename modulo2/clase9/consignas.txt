@@ -1,0 +1,44 @@
+Introduccion:
+
+Explorar y analizar datos reales
+Presentar el CSV del titanic
+
+Preguntas ejemplo:
+
+¿Cuál fue la tasa de supervivencia general?
+
+¿Sobrevivieron más mujeres que hombres?
+
+¿La clase social influenció la supervivencia?
+
+¿Cuál era la edad promedio de los pasajeros?
+
+
+
+Explicacion columnas:
+
+PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Cabin,Embarked
+
+PassengerId: ID único de cada pasajero. Es simplemente un número identificador secuencial. No tiene significado analítico.
+
+Survived: Indica si la persona sobrevivió (1) o no (0). Es la variable objetivo más usada para predicciones.
+
+Pclass: Clase del pasajero: 1 = Primera clase, 2 = Segunda, 3 = Tercera. Representa nivel socioeconómico.
+
+Name: Nombre completo del pasajero, incluye título (Mr., Mrs., Miss, etc.). Puede servir para inferir el género, el estatus social o edad.
+
+sex: Género del pasajero (male o female). Muy útil para analizar la supervivencia por género.
+
+Age: Edad del pasajero en años. Puede haber valores faltantes. Es una variable importante para análisis demográficos.
+
+Sibsp: 	Número de hermanos/as o esposos/as a bordo con el pasajero. Parte del grupo familiar.
+
+Parch: 	Número de padres o hijos que viajaban con el pasajero. Complementa a SibSp para saber si viajaba con familia.
+
+Ticket: Número del boleto. Puede tener duplicados. No es muy útil directamente, pero puede tener patrones.
+
+Fare: Precio que pagó el pasajero por el boleto. Puede variar según clase, edad, grupo, etc.
+
+cabin: 	Número de cabina. Muchos valores están vacíos. Puede usarse para detectar si un pasajero tenía cabina asignada.
+
+Embarked: Puerto de embarque: C = Cherbourg, Q = Queenstown, S = Southampton. Puede estar incompleto. Representa el lugar donde se subió al barco.
