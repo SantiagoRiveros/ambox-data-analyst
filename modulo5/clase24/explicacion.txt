@@ -1,0 +1,82 @@
+Que es el EDA?
+
+Es el analisis exploratorio de datos, busca, mediante graficos y visualizaciones explorar y analizar un conjunto de datos.
+El objetivo es explorar, investigar y aprender, no confirmar hipotesis estadisticas
+
+Preguntas claves para guiar el proceso de EDA.
+
+1. Comprension del conjunto de datos
+    -¿Cuales son las caracteristicas basicas de mi conjunto de datos?
+    -¿Cuantas observaciones(Filas) y variables (Columnas) hay?
+    -¿Que tipos de datos estan presentes? (Numericos, categoricos, etc)
+    -¿Necesito convertir algun tipo de dato?
+
+2. Comprobacion de la calidad de los datos
+    -¿Faltan valores? De ser asi, ¿Porque podrian faltar? (Las razones podrian ser la union de SQL, la conversion de Excel, etc)
+    -¿Que porcentaje de datos falta? ¿Deberia eliminar esta fila o reemplazarla con algo como la media?
+    -¿Estan los valores faltantes relacionados a otra columna? De ser asi, ¿Como afecta la eliminacion o falta de estos datos?
+    -¿Existen valores duplicados?
+    -¿Existen valores imposibles? (Ej: Edades negativas, o superiores a 1000)
+    -¿Hay algun dato introducido incorrecto?
+
+3. Preparacion de los datos
+    -¿Necesito transformar datos?
+    -¿Deben las variables categoricas convertirse en variables ficticias? <- Ahora reveer
+    -¿Los datos estan escalados apropiadamente o necesitan normalizacion?
+
+4. Identificacion de patrones
+    -¿Cual es el rango, la media, la mediana, y la desviacion estandar?
+    -¿Existen valores atipicos(outliers)?
+    -¿Existen relaciones entre las variables (Por ejemplo, correlaciones, covariacion)?
+    -¿Existen patrones o tendencias a lo largo del tiempo? (Por ejemplo, estacionalidad o anomalias)
+
+Estas preguntas actúan como una hoja de ruta que le ayudará a descubrir la historia que sus datos intentan contar.
+
+
+¿Porque el analisis descriptivo deberia comenzar luego del EDA (O analisis exploratorio)?
+
+El EDA se centra en el descubrimiento, mientras que el analisis descriptivo se centra en la explicacion.
+El EDA sienta las bases para el analisis descriptivo al garantizar que sus datos estan limpios, se comprenden bien y estan listos para ser resumidos.
+
+---------------------------------------------------------------------
+
+Preguntas clave que deben plantearse para realizar el analisis descriptivo.
+
+El analisis descriptivo consiste en responder preguntas predefinidas que resumen el conjunto de datos.
+Estas preguntas deben estar alineadas con los objetivos del analisis y la informacion obtenida durante el EDA.
+
+A continuación se presentan algunos ejemplos de preguntas para guiar su análisis descriptivo:
+
+1. ¿Cuales son las metricas clave?
+    -¿Cual es el valor total de una variable clave? (Por ejemplo, ventas totales, ingresos totales, clientes totales)
+    -¿Cual es el valor promedio de una variable (Por ejemplo ventas promedio por pedido, edad promedio del cliente)?
+    -¿Cual es el rango, minimo y maximo de las variables numericas?
+
+2. ¿Como se distribuyen las variables?
+    -¿Como se distribuyen las variables numericas? (por ejemplo, edad del cliente, ingresos, precios de los productos)
+    -¿Cual es la proporcion de categorias? (por ejemplo, porcentaje de ventas de cada region, distribucion por genero)
+
+3. ¿Cuales son las tendencias a lo largo del tiempo?
+    -¿Como cambian las metricas clavea a lo largo del tiempo? (por ejemplo, ingresos mensuales, crecimiento anual)
+    -¿Existen patrones estacionales o tendencias recurrentes?
+
+4. ¿Como se comparan los grupos?
+    -¿Que categorias tienen mejor rendimiento? (por ejemplo, producto mas vendido, regiones con mas ingresos)
+    -¿Como se comparan los diferentes grupos en terminos de metricas clave? (Por ejemplo: Venta por region, ingresos por categoria de producto)
+
+5. ¿Existen anomalias o valores atipicos?
+    -¿Existen valores inesperados o valores atipicos extremos que deban explicarse?
+    -¿Estas anomalias, se alinean con los patrones observados durante el EDA?
+
+6. ¿Que son las metricas de rendimiento?
+    -¿Como se comparan estas metricas con los puntos de referencia o periodos anteriores?
+    -¿Cuáles son los KPI (indicadores clave de rendimiento) para el conjunto de datos (por ejemplo, tasa de conversión, tasa de retención de clientes)?
+
+
+----------------------------------------------------------------------------
+
+El análisis EDA se centra en descubrir patrones y generar hipótesis, 
+mientras que el análisis descriptivo se centra en resumir datos para responder a preguntas específicas. 
+Utilice herramientas como estadísticas de resumen, gráficos y tablas para presentar sus hallazgos con claridad. 
+El objetivo del análisis descriptivo no es descubrir nuevos conocimientos, 
+sino proporcionar una base sólida para la toma de decisiones y la narración.

@@ -1,0 +1,41 @@
+Descargar CSV de: https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents?resource=download
+
+CSV sobre accidentes en USA.
+
+----------------------------
+
+Objetivos:
+
+Explorar los patrones de accidentes en EE.UU., analizando causas climáticas, estados más peligrosos, horarios críticos y condiciones más propensas a accidentes.
+
+----------------------------
+
+Consignas:
+
+    -Limpiar el dataset, manejar nulos y columnas irrelevantes
+
+    -Realizar un EDA con visualizaciones y métricas
+
+    -Analizar por severidad, ciudad, hora del día, estado, clima
+
+    -Crear variables nuevas como: duración del accidente, accidente nocturno/diurno
+
+    -Identificar relaciones entre clima y severidad
+
+    -Visualizar patrones con mapas de calor, gráficos de dispersión y de barras
+
+    -Crear un dashboard final (Power BI o Python)
+
+----------------------------
+
+Entregables esperados por alumno:
+
+    -Código limpio y comentado (Python)
+
+    -Visualizaciones representativas
+
+    -Dashboard final (Power BI)
+
+    -Archivo CSV limpio y transformado
+
+    -Informe en txt explicando el análisis

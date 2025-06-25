@@ -1,0 +1,14 @@
+EDA - Analisis exploratorio de datos
+
+El analisis exploratorio de datos permite entender la estructura de un dataset antes de aplicar modelos o interferencias
+Sirve para:
+-Explorar la distribucion de datos
+-Identificar relaciones entre variables.
+-Detectar valores atipicos (outliers)
+-Encontrar datos faltantes o inconsistencias
+
+Tipo de analisis
+-Univariado: Estudiar una variable (Ej: Edad)
+-Bivariado: Relacion entre 2 variables (Ej: edad y clase)
+-Multivariado: multiples variables (Ej: edad, clase, sexo y tarifa)
+

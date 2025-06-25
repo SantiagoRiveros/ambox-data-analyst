@@ -1,0 +1,39 @@
+Objetivos:
+
+Estudiar el rendimiento de películas en función de su género, duración, presupuesto, director y puntuación del público.
+
+----------------------------
+
+Consignas:
+
+    -Limpiar y preparar los datos: tipos, nulos, columnas nuevas
+
+    -Análisis por género, año, director, etc.
+
+    -Crear variables como: retorno (revenue/budget), popularidad relativa
+
+    -Analizar relación entre duración y rating
+
+    -Visualizar:
+
+        -Películas más votadas por género
+
+        -Evolución del rating a lo largo de los años
+
+        -Top 5 directores con mayor retorno promedio
+
+    -Crear un dashboard de resumen
+
+----------------------------
+
+Entregables esperados por alumno:
+
+    -Código limpio y comentado (Python)
+
+    -Visualizaciones representativas
+
+    -Dashboard final (Power BI)
+
+    -Archivo CSV limpio y transformado
+
+    -Informe en txt explicando el análisis
