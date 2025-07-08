@@ -1,0 +1,43 @@
+Github es una plataforma colaborativa de gestion de versionado de proyectos.
+Es decir, podes contribuir, y gestionar diferentes versiones del mismo proyecto, es decir
+ agregar y sacar cambios de unproyecto alojado en un repositorio
+
+ ¿Que es el repositorio? Es un lugar, donde 'guardas un proyecto, ahi tenes carpetas, archivos, etc.
+
+ ¿Como se usa?
+
+ -Para copiar un repositorio:
+    git clone <URL_DEL_REPOSITORIO>
+    
+
+
+¿Como agrego cambios?
+
+Primero que nada, DEBEMOS TENER CAMBIOS GUARDADOS PARA SUBIRLOS.
+
+segundo, tenemos que seguir estos 3 pasos, siempre con la terminal parados en la carpeta raiz del proyecto
+en este caso la carpeta raiz es ambox-data-analyst
+
+1er paso:
+
+    git add .
+
+2do paso:
+
+    git commit -m "<MENSAJE_DE_COMMIT>"
+
+3er paso:
+
+    git push
+
+
+Ahora... ¿Que hace en realidad cada una de estas cosas?
+
+git add .
+Agrega todos los cambios, para posteriormente subirlos
+
+git commit -m "<MENSAJE_DE_COMMIT>"
+"Empaqueta" los cambios para posteriormente subirlos
+
+git push
+Envia los cambios al repositorio
